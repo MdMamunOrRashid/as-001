@@ -17,7 +17,7 @@ p{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-height: 92px;
     margin: 20px 120px;
     max-width: 1600px;
@@ -76,6 +76,7 @@ color: white;
 /* common section for card */
 .card-section{
     margin-top: 50px;
+    margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -102,3 +103,19 @@ color: white;
     border-radius: 180px;
 }
 /*End common section for card */
+/*start brian section  */
+.brian-section{
+    display: flex;
+    margin: 0 120px;
+    gap: 60px;
+}
+
+.brain-contain{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    justify-content: center;
+}
+
+/*end brian section  */
