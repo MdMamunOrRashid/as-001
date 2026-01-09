@@ -176,12 +176,12 @@ color: white;
     text-align: center;
     gap: 50px;
     background-color: #F7F6F2;
-    width: 1360px;
+    max-width: 1360px;
     height: 385px;
+    padding: 80px;
     margin: 120px 120px;
     box-sizing: border-box;
-    padding: 80px;
-    max-width: 1600px;
+    
 
 }
 .early-access strong{
@@ -217,7 +217,7 @@ color: white;
     background-color: #2a5a86;
     margin: 0px 120px;
     margin-bottom: 30px;
-    max-width: 1600px;
+    max-width: 1360px;
 }
 
 .end-footer{
