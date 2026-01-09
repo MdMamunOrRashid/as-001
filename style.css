@@ -123,7 +123,7 @@ color: white;
 }
 
 .card{
-    width: 320px;
+    width: 345px;
     height: 300px;
     text-align: center;
     box-sizing: border-box;
@@ -215,9 +215,9 @@ color: white;
     width: 1360px;
     height: 1px;
     background-color: #2a5a86;
-    margin: 0px 120px;
+    margin: 0px 200px;
     margin-bottom: 30px;
-    max-width: 1360px;
+    max-width: 1200px;
 }
 
 .end-footer{
