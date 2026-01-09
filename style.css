@@ -12,9 +12,11 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-height: 92px;
-    margin: 19px 120px;
+    margin: 20px 120px;
+    max-width: 1600px;
+    
 }
 
 .header ul{
@@ -28,18 +30,40 @@
     background-repeat: no-repeat; 
     background-size: cover;      
     background-attachment: fixed;
-    height: 1370px;
+    height: 670px;
+    max-width: 1700px;
 }
+/* .hero{
+    border: 2px solid green;
+} */
 
 .hero-section{
-    height: 100vh;
+    box-sizing: border-box;
+    height: 670px;
+    width: 1600px;
     text-align: center;
-    justify-content: center;
+    padding: 70px 120px 134px 120px;
 }
 .hero-section p{
 color: white;
 }
 
-.hero-section .h1{
-    color: white;
+.hero-section .h2{
+    color: #30B868;
+}
+
+/* End */
+/* start node-section */
+/* ------------------------ */
+.node-section{
+    margin: 25px 120px;
+}
+.node{
+    text-align: center;
+}
+.node strong{
+    font-size: 48px;
+}
+.node p{
+    color: #627382;
 }
