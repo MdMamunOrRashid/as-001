@@ -10,7 +10,13 @@
 
 p{
     color: #627382;
-
+}
+.btn{
+    background-color: #469165;
+    color: white;
+    border-radius: 4px;
+    width: 185px;
+    height: 45px;
 }
 
 
@@ -38,16 +44,27 @@ p{
     height: 670px;
     max-width: 1700px;
 }
+.hs h3{
+    color: #30B868;
+    background-color: white;
+    border-radius: 30px;
+   
+}
 /* .hero{
     border: 2px solid green;
 } */
 
+
 .hero-section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     box-sizing: border-box;
     height: 670px;
     width: 1600px;
     text-align: center;
-    padding: 70px 120px 134px 120px;
+    padding: 150px 120px 134px 120px;
+    
 }
 .hero-section p{
 color: white;
@@ -61,7 +78,7 @@ color: white;
 /* start node-section */
 /* ------------------------ */
 .node-section{
-    margin: 20px 120px;
+    margin: 120px 120px;
 }
 .node{
     text-align: center;
@@ -75,7 +92,7 @@ color: white;
 
 /* common section for card */
 .card-section{
-    margin-top: 50px;
+    margin-top: 120px;
     margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
@@ -106,7 +123,7 @@ color: white;
 /*start brian section  */
 .brian-section{
     display: flex;
-    margin: 0 120px;
+    margin: 120px 120px;
     gap: 60px;
 }
 
@@ -119,3 +136,48 @@ color: white;
 }
 
 /*end brian section  */
+
+.early-access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 385px;
+    margin: 120px 120px;
+    box-sizing: border-box;
+    padding: 80px;
+
+}
+.early-access strong{
+    font-size: 40px;
+}
+
+/* start footer */
+.footer{
+    background-color: #001931;
+    height: 350px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 80px 0px 120px 0px;
+}
+
+.footer-line{
+    width: 1360px;
+    height: 1px;
+    background-color: #2a5a86;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.end-footer{
+    text-align: center;
+    
+}
+/* end footer  */
